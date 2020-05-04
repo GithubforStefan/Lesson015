@@ -12,7 +12,7 @@ import java.time.*;
 //Let's start with structures
 public class Payment {
     int uniqueID;
-    double amount;
+    private double amount;
     String type;
     LocalDate date;
 
