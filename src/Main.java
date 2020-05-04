@@ -19,7 +19,7 @@ public class Main {
         Payment newPayment = new Payment(newID, newAmount,newType,newDate);
 
 
-/*
+
         Payment newPayment1 = new Payment(1, -223.34, "Groceries", LocalDate.now());
         Payment newPayment2 = new Payment(2, -23.34, "Transport", LocalDate.now());
         Payment newPayment3 = new Payment(3, -25.70, "Power", LocalDate.now());
@@ -32,11 +32,11 @@ public class Main {
         Payment newPayment9 = new Payment(10, -25.70, "Power", LocalDate.now());
         Payment newPayment10 = new Payment(11, -2.98, "Groceries", LocalDate.now());
         Payment newDeposit2 = new Payment(12, +2000, "Deposit", LocalDate.now());
-*/
+
         Account newAccount = new Account();
 
         newAccount.addPayment(newPayment);
-/*      newAccount.addPayment(newPayment1);
+        newAccount.addPayment(newPayment1);
         newAccount.addPayment(newPayment2);
         newAccount.addPayment(newPayment3);
         newAccount.addPayment(newPayment4);
@@ -48,7 +48,7 @@ public class Main {
         newAccount.addPayment(newPayment9);
         newAccount.addPayment(newPayment10);
         newAccount.addPayment(newDeposit2);
-*/
+
         newAccount.printPayments();
         System.out.println("Would you like to add another expense or deposit? (y/n)");
         Scanner yesOrNo = new Scanner(System.in);
